@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Dashboard">
+   <children>
+      <AnchorPane layoutX="8.0" layoutY="7.0" prefHeight="1080.0" prefWidth="314.0" style="-fx-background-color: #01160e;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="101.0" layoutY="50.0" text="Admin" textFill="#fefefe" />
+            <Label layoutX="38.0" layoutY="239.0" text="Park info" textFill="#8d8787" />
+            <Label layoutX="38.0" layoutY="431.0" text="Payments" textFill="#8d8787" />
+            <Line endX="164.0" layoutX="142.0" layoutY="918.0" startX="-135.0" stroke="#655e5e" />
+            <Label fx:id="username_button" layoutX="58.0" layoutY="940.0" prefHeight="20.0" prefWidth="127.0" text="Transaction" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="email_button" layoutX="60.0" layoutY="966.0" text="dghuhjss.gmail" textFill="#8d8787" />
+            <Button fx:id="dashboard_button" layoutX="25.0" layoutY="276.0" mnemonicParsing="false" onAction="#goToDashboard" prefHeight="24.0" prefWidth="116.0" style="-fx-background-color: transparent;" text="Dashboard" textFill="WHITE" />
+            <Button fx:id="drivers_button" layoutX="9.0" layoutY="319.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="116.0" style="-fx-background-color: transparent;" text="Drivers" textFill="WHITE" />
+            <Button fx:id="cars_button1" layoutX="11.0" layoutY="362.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="99.0" style="-fx-background-color: transparent;" text="Cars" textFill="WHITE" AnchorPane.leftAnchor="11.0" />
+            <Button fx:id="cars_button11" layoutX="15.0" layoutY="465.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="150.0" style="-fx-background-color: transparent;" text="Payment details" textFill="WHITE" AnchorPane.leftAnchor="15.0" />
+            <Button fx:id="cars_button111" layoutX="38.0" layoutY="507.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="116.0" style="-fx-background-color: transparent;" text="Transactions" textFill="WHITE" AnchorPane.leftAnchor="25.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="306.0" layoutY="14.0" prefHeight="1080.0" prefWidth="547.0" style="-fx-background-color: #f9f7f2;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="306.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="53.0" layoutY="40.0" text="Statistics">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="57.0" layoutY="88.0" text="Today 06 june 2022" textFill="#8d8787" />
+            <Button layoutX="57.0" layoutY="128.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="264.0" style="-fx-background-color: red;" />
+            <Label layoutX="57.0" layoutY="198.0" text="Expenses">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="248.0" layoutY="198.0" />
+            <Label layoutX="57.0" layoutY="229.0" text="Total prices" textFill="#8d8787" />
+            <Label fx:id="expense" layoutX="57.0" layoutY="259.0" style="-fx-font-weight: bold;" text="\$ 7333.00">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="153.0" layoutY="202.0" prefHeight="16.0" prefWidth="48.0" text="+25%" />
+            <Label layoutX="312.0" layoutY="202.0" text="Income">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="312.0" layoutY="233.0" text="Total prices" textFill="#8d8787" />
+            <Label fx:id="income" layoutX="312.0" layoutY="263.0" style="-fx-font-weight: bold;" text="\$ 7333.00">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="408.0" layoutY="206.0" prefHeight="16.0" prefWidth="48.0" text="+25%" />
+            <Label layoutX="61.0" layoutY="359.0" text="Middle price">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="62.0" layoutY="393.0" text="Amount per hour" textFill="#8d8787" />
+            <Label fx:id="middle_price" layoutX="62.0" layoutY="423.0" style="-fx-font-weight: bold;" text="\$ 7333.00">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="312.0" layoutY="356.0" text="Park load">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="313.0" layoutY="390.0" text="Number of cars" textFill="#8d8787" />
+            <Label fx:id="park_load" layoutX="313.0" layoutY="420.0" style="-fx-font-weight: bold;" text="\$ 7333.00">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="72.0" layoutY="512.0" text="Receiving Orders">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <BarChart fx:id="receiving_graph" layoutX="24.0" layoutY="584.0">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+            </BarChart>
+            <Label layoutX="62.0" layoutY="1026.0" style="-fx-background-insets: bond;" text="Total income">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="total_income" layoutX="383.0" layoutY="1026.0" text="\$12365.00">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="861.0" prefHeight="200.0" prefWidth="304.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="861.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="53.0" layoutY="46.0" text="Reservation and profits">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="323.0" fitWidth="432.0" layoutX="53.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true" style="-fx-blend-mode: aqua;">
+               <image>
+                  <Image url="@../../../../../Documents/Attch/str.jpeg" />
+               </image>
+            </ImageView>
+            <Label layoutX="602.0" layoutY="136.0" />
+            <Label layoutX="46.0" layoutY="338.0" text="Profit dynamics">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <LineChart fx:id="profit_dynamic" layoutX="49.0" layoutY="415.0" prefHeight="299.0" prefWidth="962.0">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+            </LineChart>
+            <Label layoutX="37.0" layoutY="748.0" text="Reservation list">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <TableView fx:id="reserved_list" layoutX="42.0" layoutY="796.0" prefHeight="271.0" prefWidth="1017.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="42.0" AnchorPane.rightAnchor="0.0">
+              <columns>
+                <TableColumn fx:id="no_list" prefWidth="75.0" text="#" />
+                <TableColumn fx:id="reserved_id" prefWidth="146.0" text="Reservation id" />
+                  <TableColumn fx:id="driver" prefWidth="188.0" text="Driver" />
+                  <TableColumn fx:id="reserved_slot" prefWidth="126.0" text="Reserved slot" />
+                  <TableColumn fx:id="date" prefWidth="218.0" text="Date" />
+                  <TableColumn fx:id="time" prefWidth="75.0" text="Time" />
+              </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <Label text="Label" />
+   </children>
+</AnchorPane>

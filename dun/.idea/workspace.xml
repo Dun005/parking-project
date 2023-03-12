@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0a6f8da3-35ba-4124-b477-8056871adef9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dun.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.base/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.base/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.base/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.controls/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.controls/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.controls/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.fxml/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.fxml/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.fxml/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.graphics/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.graphics/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.graphics/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.graphics/jpeg_fx.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.graphics/mesa3d.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.media/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.media/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.media/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.media/directshow.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.media/glib.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.media/gstreamer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.media/libffi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.swing/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.swing/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.swing/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.web/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.web/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.web/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.web/icu_web.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.web/libxml2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.web/libxslt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/legal/javafx.web/webkit.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/javafx-swt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/javafx.base.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/javafx.controls.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/javafx.fxml.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/javafx.graphics.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/javafx.media.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/javafx.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/javafx.swing.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/javafx.web.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libavplugin-54.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libavplugin-56.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libavplugin-57.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libavplugin-ffmpeg-56.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libavplugin-ffmpeg-57.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libavplugin-ffmpeg-58.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libdecora_sse.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libfxplugins.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libglass.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libglassgtk2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libglassgtk3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libgstreamer-lite.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libjavafx_font.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libjavafx_font_freetype.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libjavafx_font_pango.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libjavafx_iio.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libjfxmedia.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libjfxwebkit.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libprism_common.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libprism_es2.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/lib/libprism_sw.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/javafx-sdk/src.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MuYA1Ma27jX0B7F2Z6JuWwpPEK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/martin/Desktop/Java/dun/src/utils/javafx-sdk/lib",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/utils" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="dun" />
+      <option name="VM_PARAMETERS" value="--module-path ./src/utils/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a6f8da3-35ba-4124-b477-8056871adef9" name="Changes" comment="" />
+      <created>1678618798811</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678618798811</updated>
+    </task>
+    <servers />
+  </component>
+</project>
